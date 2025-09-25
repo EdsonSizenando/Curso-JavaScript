@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Desafio</title>
 </head>
 <body>
+    <h1>Verificando nacionalidade</h1>
+    Em qual país você nasceu: <input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="Verificar" onclick="analisar()">
+    <div id="resp">
+
+    </div>
+
+    <script>
+        function analisar() {
+            var txtpais = window.document.getElementById('txtpais')
+            var resp = window.document.getElementById('resp')
+            var pais = String(txtpais.value)
+            resp.innerHTML = `<p>${pais} é o seu país de nascimento por tanto você é <strong>GRINGO!</strong></p>`
+            if ( pais == 'Brasil') {
+                resp.innerHTML = `<p>Você nasceu no Brasil portante é Brasileiro <strong>NATO</strong>!</p>`
+            }
+        } 
+
+
+    </script>
+
+
     
 </body>
 </html>
