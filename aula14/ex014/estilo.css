@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+
+body{
+    background: rgb(69, 134, 208);
+    font: normal 15pt arial;
+}
+
+header {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.901);
+    padding: 20px;
+    width: 70vw;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.323);
+
+}
+
+div {
+    padding: 10px;
+}
+div > p{
+    padding-bottom: 8px;
+    
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font: normal 14pt italic;
+}
+
+
