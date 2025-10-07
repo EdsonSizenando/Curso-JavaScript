@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background: rgb(60, 183, 224);
+    font: normal 15pt Arial;
+
+}
+
+header{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+section{
+    background: white;
+    max-width: 80vw;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+div#dados {
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font: normal 12pt italic;
+}
