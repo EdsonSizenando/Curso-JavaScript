@@ -23,3 +23,14 @@ section {
     border-radius: 8px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.359);
 }
+
+select {
+    width: 150px;
+    margin: 10px;
+    
+}
+
+section div#resp {
+    padding: 10px
+
+}
