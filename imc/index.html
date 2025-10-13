@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>IMC - Índice de Massa Corporal</h1>
+        <h2>Veja a classificação do IMC </h2>
+        <ul>
+            <li>Menor que 18,5</li>
+            <li>Entre 18,5 e 24,9</li>
+            <li>Entre 25,0 e 29,9</li>
+            <li>Entre 30 e 39,9</li>
+            <li>Maior que 40,0</li>
+            <li>Magreza</li>
+            <li>Normal</li>
+            <li>Sobrepeso</li>
+            <li>Obesidade</li>
+            <li>Obesidade grave</li>
+
+        </ul>
+
+
+    
+    </header>
+    <section>
+        <div>
+            Altura (ex.: 1,80)
+            <input type="number" name="altura" id="txtalt">
+            <br>Peso (ex.: 75.5kg)
+            <input type="number" name="peso" id="txtpeso">
+
+            <br><input type="button" value="Calcular" onclick="calcular()">
+            <input type="button" value="Limpar">
+
+
+        </div>
+        <div id="resp">
+
+        </div>
+
+        
+
+     
+
+    </section> 
+    <script src="script.js"></script>
+</body>
+</html>

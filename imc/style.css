@@ -1,0 +1,54 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font: normal 14pt Arial;
+    background-image: linear-gradient(to top, #100b42,#806dac, #356c8a) ;
+    background-attachment: fixed;
+    
+}
+
+header h1 {
+    color: white;
+    font: normal 2.0em Arial;
+    text-align: center;
+    padding: 20px;
+}
+
+header h2 {
+    color: white;
+    font: normal 1.2em Arial;
+    text-align: center;
+    padding: 15px;
+}
+
+header ul {
+    color: white;
+    padding: 20px;
+    list-style-position: inside;
+    columns: 2;
+}
+
+section {
+    background: white;
+    font: normal 13pt Arial;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.374);
+}
+
+section input {
+    margin: 5px;
+    font: normal 12pt Arial;
+}
+
+div#resp {
+    padding: 15px;
+}
+
+
+
